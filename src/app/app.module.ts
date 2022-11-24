@@ -7,6 +7,7 @@ import { PatientEntryComponent } from './patient-entry/patient-entry.component';
 import { PatientSearchComponent } from './patient-search/patient-search.component';
 import { PatientDeleteComponent } from './patient-delete/patient-delete.component';
 import { PatientViewComponent } from './patient-view/patient-view.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PatientViewComponent } from './patient-view/patient-view.component';
     PatientEntryComponent,
     PatientSearchComponent,
     PatientDeleteComponent,
-    PatientViewComponent
+    PatientViewComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
