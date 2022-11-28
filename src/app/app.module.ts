@@ -8,6 +8,7 @@ import { PatientSearchComponent } from './patient-search/patient-search.componen
 import { PatientDeleteComponent } from './patient-delete/patient-delete.component';
 import { PatientViewComponent } from './patient-view/patient-view.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
